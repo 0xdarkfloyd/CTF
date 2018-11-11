@@ -1,0 +1,56 @@
+break main
+run
+c
+run
+x/10x
+break password
+break *0x56555bc6
+c
+quit
+break *main
+break *0xc88
+c
+run
+break *0x56555b24
+break *0x56555c88
+quit
+run
+quit
+break main
+r
+c
+reak *0x400BD7
+break *0x400BD7
+1
+c
+r
+c
+exit
+exit
+gd
+pwd
+quit
+quit
+break *0x4009F1
+c
+r
+break *0x4009B8
+c
+find 0x5178aabc
+x/32gx 0x603010
+c
+x/32gx 0x603010
+heapinfo
+c
+x/32gx 0x603010
+heapinfo
+c
+x/32gx 0x603010
+vmamp
+vmmap
+q
+breakpoints
+help
+info breakpoints
+kill
+q
